@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".artistinfo">
+
+
+    <!-- Editext for Search -->
+    <EditText
+        android:id="@+id/inputSearch1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search artists.."
+        android:inputType="textVisiblePassword" />
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="gototracks"
+        android:text=" view tracks" />
+
+
+    <ListView
+        android:id="@+id/lva2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

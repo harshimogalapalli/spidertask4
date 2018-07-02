@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".attributes"
+    android:backgroundTintMode="src_in">
+      <TextView
+            android:id="@+id/name"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textColor="@color/colorAccent"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/house"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/books"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/pageRank"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="36sp" />
+
+</LinearLayout>
